@@ -6,4 +6,5 @@ object ReadingFile extends App{
 
   Source.fromResource("Testing").getLines().foreach(println)
   println("Hello All")
+  println("This line is to trigger something")
 }
